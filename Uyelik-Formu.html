@@ -1,0 +1,82 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Hemen Üye Ol</title>
+  </head>
+  <body>
+      
+<p>
+    <h1>Lütfen Üyelik Formunu Doldurunuz</h1>
+</p>
+<hr>
+
+<p>
+    <h2>Hesap Bilgileri</h2>
+</p>
+<hr>
+
+<form action="/Home/Register">
+    <p>
+        Kullanıcı Adı<input type="text" name="Kullanıcı Adı" placeholder="kullanıcı adı giriniz" required >
+    </p>
+    <p>
+        Parola<input type="password" name="parola" placeholder="parolanızı giriniz" required>
+    </p>
+    <p>
+        Eposta<input type="email" name="eposta" placeholder="epostanızı giriniz" required>
+    </p>
+
+
+<p>
+    <h2>Kullanıcı Bilgileri</h2>
+</p>
+<hr>
+
+
+<p>
+    Ad<input type="text" name="eposta" >
+</p>
+<p>
+    Soyad<input type="text" name="soyad">
+</p>
+<p>
+    Şehir<select>
+    <option>Erzincan</option>
+    <option>Erzurum</option>
+    <option>Sivas</option>
+    <option>Tokat</option>
+    <option>Ankara</option>
+    <option>İstanbul</option>
+    </select>
+</p>
+<p>
+    Cinsiyet:
+Erkek<input type="radio" name="cinsiyet">
+
+Kadın<input type="radio" name="cinsiyet">
+
+</p>
+<p>
+    Hobiler
+    <br>
+    Sinema<input type="checkbox">
+    Spor<input type="checkbox">
+    Okumak<input type="checkbox">
+
+</p>
+<p>
+Beni Hatırla<input type="checkbox" name="beni hatırla">
+
+ <input type="submit" value="Kaydet">
+</p>
+
+
+
+</form>
+
+
+  </body>
+  </html>
